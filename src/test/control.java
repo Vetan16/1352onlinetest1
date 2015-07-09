@@ -13,7 +13,7 @@ public class control {
 		return instance;
 	}
 	
-	/*ready for voting*/
+	/*ready to voting*/
 	public void pressBallotButton(){
 		
 	}

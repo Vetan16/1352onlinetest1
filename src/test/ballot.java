@@ -1,9 +1,22 @@
-package test;
+package test ;
 
-public class ballot{
+public class ballot {
 	
-	/* voter votes a candidate */
-	public void pressCandidateKey(){
+	private control control;
+	
+
+	public void attachControlUnit( control control){
+		this.control = control;
+	}
+	
+
+	public void pressCandidateKeyForVote( Integer sno ){
+		control.putvote( sno );
+	}
+	
+	public void allowVote(){
 		
 	}
 }
+
+
